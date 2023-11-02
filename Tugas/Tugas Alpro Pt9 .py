@@ -70,8 +70,7 @@ if Extra_Keju == "y":
     Extra_Keju = True
 #jika tidak Extra_keju di update menjadi False
 else:
-    Extra_Keju = False
-
+    Extra_Keju = False                       
 
 #Regha
 #Fungsi untuk mengkalkulasi harga dari semua input pilihan user
