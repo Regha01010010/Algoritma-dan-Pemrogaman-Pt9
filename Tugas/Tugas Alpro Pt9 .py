@@ -145,3 +145,41 @@ def PizzaHut(crust,size,cheese):
     return Harga_Total
 
 #Nadhif
+#Jika Extra_Keju adalah True, Menampilkan bill output dengan tambahan Extra keju
+if Extra_Keju == True:
+    print(
+    f"""
+    =====================================
+                BILL PIZZA
+    =====================================
+    Pizza         : {Menu_Pizza[Pizza_Dipilih-1]} Ukuran {Pil_Size[Size_Dipilih-1]}
+    Pilihan Crust : {Pil_Crust[Crust_Dipilih-1]}
+    Extra Keju
+
+
+    
+    Total Harga   : Rp.{PizzaHut(Crust_Dipilih,Size_Dipilih,Extra_Keju)}
+    =====================================
+     TERIMAKASIH TELAH MEMBELI PIZZA DI
+                PIZZA HUT
+    =====================================
+    """)
+#Selain itu, Menampilkam bill output tanpa tambahan extra keju
+else:
+    print(
+    f"""
+    ====================================
+                BILL PIZZA
+    ====================================
+    Pizza         : {Menu_Pizza[Pizza_Dipilih-1]} Ukuran {Pil_Size[Size_Dipilih-1]}
+    Pilihan Crust : {Pil_Crust[Crust_Dipilih-1]}
+
+
+
+    Total Harga   : Rp.{PizzaHut(Crust_Dipilih,Size_Dipilih,Extra_Keju)}
+    =====================================
+     TERIMAKASIH TELAH MEMBELI PIZZA DI
+                PIZZA HUT
+    =====================================
+    """)
+print("hello world!")
