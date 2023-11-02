@@ -57,7 +57,7 @@ Size_Dipilih = int(input("Pilih Size Pizza Anda : "))
 #Mengkoreksi apabila user memasukan angka yang tidak valid
 while Size_Dipilih < 1 or Size_Dipilih > 3:
     print("Input Tidak Valid!")
-    Size_Dipilih = int(input("Pilih Size Pizza Anda: ")
+    Size_Dipilih = int(input("Pilih Size Pizza Anda: "))
 
 #Input user apakah ingin menambahkan ekstra keju pada pizza nya disimpan dalam variabel Extra_Keju sebagai bolean
 Extra_Keju = input("\nIngin Tambahan Extra Keju Pada Pizza Anda? [y/n] : ").lower()   
