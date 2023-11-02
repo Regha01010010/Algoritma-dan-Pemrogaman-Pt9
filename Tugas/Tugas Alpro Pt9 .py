@@ -17,9 +17,9 @@ Pil_Size = ["Personal","Regular","Large"]
 #Menampilkan ucapan selamat datang juga sebagai header
 print(
 """
-================================
+=================================
    SELAMAT DATANG DI PIZZA HUT
-================================
+=================================
 Silahkan Pilih Toping Pizza Anda
 """)
 
